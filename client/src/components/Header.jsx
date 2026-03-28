@@ -14,7 +14,7 @@ const Header = ({ title }) => {
         <button 
           className="theme-toggle" 
           onClick={toggleTheme}
-          title={isDarkMode ? "Tema claro" : "Tema escuro"}
+          title={isDarkMode ? "Light theme" : "Dark theme"}
         >
           {isDarkMode ? <FaSun /> : <FaMoon />}
         </button>
